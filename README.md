@@ -6,7 +6,8 @@ Task 1:
   Using OpenCV, an IC's legs can be detected and summated to find out if the IC has complete legs or missing. It makes use of estimating the body size of the IC and predict the amount of legs it should have. However, this is only applicable for IC bodys of 16 and thus making it inefficient for IC Legs Identification
 
 Task 2:
-
+  Using Roboflow, Yolo V8 and OpenCV, a custom model that has 5 distinct classes for 4 types of IC bodies and legs was created. It was done using Roboflow for annotation and class segregration, then using YoloV8's features, it was trained for 100 epochs, and was exported into a custom .pt format. 
+  
 1. Using Roboflow, a dataset can be done by uploading video frames of the ICs into the project base. Roboflow is an free annotating tool software whereby classes can be created.
 2. A sample website for reference can be found: https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/
 
